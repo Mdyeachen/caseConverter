@@ -133,6 +133,11 @@ const App = () => {
           )}
         </div>
       </div>
+
+      {/* footer section */}
+      <footer className="w-full text-center text-slate-500 text-sm py-6">
+        <p>© {new Date().getFullYear()} yeachen Case Converter. All rights reserved.</p>
+      </footer>
     </div>
   )
 }
