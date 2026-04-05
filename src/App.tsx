@@ -51,7 +51,7 @@ const App = () => {
       .filter(word => word.length > 0);
 
     // 2. Count frequencies
-    const freqMap = {};
+    const freqMap: Record<string, number> = {};
     words.forEach(word => {
       freqMap[word] = (freqMap[word] || 0) + 1;
     });
@@ -67,7 +67,7 @@ const App = () => {
     <div className="bg-slate-200 min-h-screen w-full mx-auto flex flex-col items-center justify-start p-6 gap-6 font-sans">
       {/* Header Section */}
       <div className="w-full max-w-3xl mx-auto py-6 px-4">
-        <img className="h-20 mx-auto" src="/favicon.png" alt="Case Converter - SEO Tools by Yeachen Abir" />
+        <img className="h-20 mx-auto" src="https://raw.githubusercontent.com/Mdyeachen/caseConverter/refs/heads/main/public/favicon.png" alt="Case Converter - SEO Tools by Yeachen Abir" />
       </div>
 
       <div className="w-full flex gap-6 justify-center items-start flex-col md:flex-row">
