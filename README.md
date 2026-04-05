@@ -26,4 +26,4 @@ A streamlined web utility for instant text transformation and analysis. Built wi
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/mdyeachen/case-converter.git](https://github.com/mdyeachen/case-converter.git)
+   git clone [https://github.com/Mdyeachen/caseConverter.git](https://github.com/Mdyeachen/caseConverter.git)
