@@ -19,5 +19,5 @@ export default defineConfig({
   css: {
     devSourcemap: true,
   },
-  base: "/caseconverter"
+  base: "/caseConverter/",
 });
