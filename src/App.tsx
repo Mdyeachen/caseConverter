@@ -122,6 +122,7 @@ const App = () => {
           property="og:image"
           content="https://raw.githubusercontent.com/Mdyeachen/caseConverter/refs/heads/main/public/favicon.png"
         />
+        <meta property="og:url" content="https://mdyeachen.github.io/caseConverter/" />
         <meta name="google-site-verification" content="cM_3y0WeSMMsOa18UoWYeartrhq2SMcMN_F5DPF4sQk" />
 
         <script type="application/ld+json">
@@ -206,9 +207,9 @@ const App = () => {
             </h1>
             {duplicateWords.length > 0 ? (
               <div className="flex flex-wrap gap-2 py-4">
-                {duplicateWords.map(([word, count]) => (
+                {duplicateWords.map(([word, count], index) => (
                   <span
-                    key={word}
+                    key={`${word}-${index}`}
                     className="border border-slate-200 p-2 rounded max-w-full break-all"
                   >
                     <span className="word">{word} </span>
