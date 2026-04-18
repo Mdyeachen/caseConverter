@@ -122,6 +122,7 @@ const App = () => {
           property="og:image"
           content="https://raw.githubusercontent.com/Mdyeachen/caseConverter/refs/heads/main/public/favicon.png"
         />
+        <meta name="google-site-verification" content="cM_3y0WeSMMsOa18UoWYeartrhq2SMcMN_F5DPF4sQk" />
 
         <script type="application/ld+json">
           {JSON.stringify(softwareSchema)}
