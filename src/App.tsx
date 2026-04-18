@@ -85,6 +85,11 @@ const App = () => {
     },
     description:
       "A powerful online tool to convert text to Sentence case, Uppercase, Lowercase, and find duplicate words.",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "5",
+      ratingCount: "1",
+    },
     author: {
       "@type": "Person",
       name: "Yeachen Abir",
